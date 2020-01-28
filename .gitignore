@@ -7,5 +7,6 @@
 
 # App-generated
 #--------------------#
+config/.secret.json
 node_modules
 

@@ -1,8 +1,13 @@
 const express = require('express');
 const cors = require('cors');
 const graphqlHTTP = require('express-graphql');
+const { setupDB } = require('../config/dbConnect');
 
 const app = express();
+
+// DB
+// eslint-disable-next-line no-console
+setupDB((v) => console.log(v));
 
 // CORS
 app.use(cors());
