@@ -1,0 +1,28 @@
+{
+  "name": "weather-react",
+  "description": "Simple weather app to explore React + MongoDB.",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "author": "Steve Stedman <steve@stedman.dev>",
+  "license": "WTFPL",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "mongodb": "^3.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "1.19.1"
+  }
+}
