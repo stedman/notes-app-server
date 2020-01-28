@@ -1,12 +1,12 @@
 {
-  "name": "weather-react",
-  "description": "Simple weather app to explore React + MongoDB.",
+  "name": "notes-app-server",
+  "description": "Simple notes server to explore Express, MongoDB, and GraphQL.",
   "version": "0.0.1",
-  "main": "./src/index.js",
+  "main": "index.js",
   "author": "Steve Stedman <steve@stedman.dev>",
   "license": "WTFPL",
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
